@@ -48,6 +48,23 @@ pnpm watch
 - Redirects to the original Substack article after the meta tags load
 - Bypasses Twitter's artificial reach limitations on Substack links
 
+## Railway Deployment ✅
+
+The app has been deployed to Railway at:
+**https://illuminate.up.railway.app/**
+
+### Railway Commands
+```bash
+# Check deployment status
+railway status
+
+# View logs
+railway logs
+
+# Generate new domain (if needed)
+railway domain
+```
+
 ## Project Structure
 
 - `src/server.js` - Main server code
